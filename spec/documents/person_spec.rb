@@ -10,4 +10,3 @@ describe Person do
     expect(subject.name).to_not be_nil
   end
 end
-
