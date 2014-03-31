@@ -1,3 +1,6 @@
+mongo docs: http://docs.mongodb.org/manual/core/introduction/
+mongoid docs: http://two.mongoid.org/docs/querying.html
+
 Relational DBMS is ACID
 - atomicity
 - consistency
