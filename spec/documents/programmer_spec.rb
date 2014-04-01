@@ -35,5 +35,10 @@ describe Programmer do
       acme = Company.find_by(name: "Acme", programmer_id: subject.id)
       expect(subject.companies).to include(acme) 
     end
+
+    it "modify Acme -> Acme1" do
+      Company.find_by(name: "Acme", programmer_id: subject.id).update_attributes(name: "Acme1")
+      expect(subject.companies(true).map(&:name)).to include("Acme1")
+    end
   end
 end
