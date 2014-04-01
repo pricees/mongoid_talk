@@ -14,10 +14,13 @@ Relational DBMS think ACID
 
 Atomicity 
 : txn is "all or nothing"
+
 Consistency 
 : stable state -> transaction -> stable state
+
 Isolation 
 : concurrent txn acts as if done serially
+
 Durability 
 : once txn occurs, state held, persists in event of power loss
 
